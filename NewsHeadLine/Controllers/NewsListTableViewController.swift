@@ -15,7 +15,7 @@ class NewsListTableViewController: UITableViewController {
             .navigationBar
             .prefersLargeTitles = true
         
-        WebService().getArticles(country: "us") {
+        WebService().getArticles(country: "kr") {
             [weak self] articles in
             guard let self else { return }
             if let articles {

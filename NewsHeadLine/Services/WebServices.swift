@@ -42,7 +42,7 @@ class WebService {
                     completion(articleList.articles)
                 }
 
-                print(articleList?.articles ?? "nil")
+                //print(articleList?.articles ?? "nil")
             }
         }.resume()
     }
